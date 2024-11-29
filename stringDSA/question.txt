@@ -1,0 +1,60 @@
+1. Reverse a String
+Problem: Given a string, reverse it.
+Practice: LeetCode
+2. Check if Two Strings are Anagrams
+Problem: Check if two strings are anagrams of each other.
+Practice: LeetCode
+3. Longest Substring Without Repeating Characters
+Problem: Find the longest substring without repeating characters.
+Practice: LeetCode
+4. Longest Common Prefix
+Problem: Find the longest common prefix among an array of strings.
+Practice: LeetCode
+5. Valid Palindrome
+Problem: Determine if a string is a palindrome.
+Practice: LeetCode
+6. String to Integer (atoi)
+Problem: Implement the atoi function which converts a string to an integer.
+Practice: LeetCode
+7. Longest Palindromic Substring
+Problem: Find the longest palindromic substring in a given string.
+Practice: LeetCode
+8. Group Anagrams
+Problem: Group all anagrams together in a list of strings.
+Practice: LeetCode
+9. Count and Say
+Problem: Given an integer n, generate the nth term of the "count-and-say" sequence.
+Practice: LeetCode
+10. Implement strStr()
+Problem: Return the index of the first occurrence of a substring within a string.
+Practice: LeetCode
+11. Minimum Window Substring
+Problem: Find the minimum window in a string that contains all characters of another string.
+Practice: LeetCode
+12. Valid Parentheses
+Problem: Determine if the given string has valid parentheses.
+Practice: LeetCode
+13. Longest Repeating Character Replacement
+Problem: Given a string and an integer k, find the length of the longest substring containing the same letter you can get after performing at most k replacements.
+Practice: LeetCode
+14. Roman to Integer
+Problem: Convert a Roman numeral to an integer.
+Practice: LeetCode
+15. Integer to Roman
+Problem: Convert an integer to a Roman numeral.
+Practice: LeetCode
+16. Wildcard Matching
+Problem: Implement wildcard pattern matching with support for '?' and '*'.
+Practice: LeetCode
+17. Edit Distance
+Problem: Find the minimum number of operations required to convert one string to another.
+Practice: LeetCode
+18. Is Subsequence
+Problem: Check if one string is a subsequence of another string.
+Practice: LeetCode
+19. Decode Ways
+Problem: A message containing letters from A-Z is encoded, find the number of ways to decode it.
+Practice: LeetCode
+20. Find All Anagrams in a String
+Problem: Given a string and a pattern, find all anagrams of the pattern in the string.
+Practice: LeetCode

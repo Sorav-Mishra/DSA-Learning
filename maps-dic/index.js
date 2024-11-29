@@ -1,0 +1,11 @@
+// let person = { name: "abhishek", age: "23", city: "don't know" };
+// console.log(person.age);
+// console.log(person.name);
+// console.log(person.city);
+// delete person.city;
+// person.age = 50;
+// console.log(person);
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+// console.log(Object.entries(person));
+// console.log(Object.assign(person));

@@ -1,0 +1,59 @@
+1. Reverse a String
+Write a function that reverses a given string without using the built-in reverse method.
+
+2. Count Vowels in a String
+Write a function to count the number of vowels in a given string.
+
+3. Check Palindrome
+Write a function to check whether a string is a palindrome.
+
+4. Remove Whitespace
+Write a function that removes all whitespace from a string (leading, trailing, and middle spaces).
+
+5. Find the First Non-Repeating Character
+Write a function that finds the first non-repeating character in a string.
+
+6. Find the Longest Word in a Sentence
+Write a function that finds the longest word in a given sentence.
+
+7. Count the Occurrences of a Substring
+Write a function that counts how many times a specific substring appears in a string.
+
+8. Check if a String Contains a Substring
+Write a function that checks if a given string contains a specific substring (case insensitive).
+
+9. Implement String Concatenation
+Write a function to concatenate two strings without using the + operator.
+
+10. Capitalize the First Letter of Each Word
+Write a function that capitalizes the first letter of each word in a string.
+
+11. Find the Index of a Substring
+Write a function that returns the index of the first occurrence of a substring in a string. If not found, return -1.
+
+12. Convert a String to Lowercase
+Write a function to convert all characters in a string to lowercase.
+
+13. Convert a String to Uppercase
+Write a function to convert all characters in a string to uppercase.
+
+14. Check if Two Strings are Anagrams
+Write a function that checks if two strings are anagrams of each other.
+
+15. Extract Substring
+Write a function that extracts a substring from the given string starting from index start to index end using the slice or substring method.
+
+16. Split a String into Words
+Write a function that splits a sentence into an array of words.
+
+17. Replace All Occurrences of a Substring
+Write a function that replaces all occurrences of a substring with another string.
+
+18. Find the Character at the Nth Position
+Write a function that returns the character at the nth position of a string.
+
+19. Remove Specific Characters
+Write a function that removes all occurrences of a specific character from a string.
+
+20. Check if String Starts with Substring
+Write a function that checks if a string starts with a given substring.

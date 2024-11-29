@@ -1,0 +1,14 @@
+Find the Maximum Product of Two Integers in an Array
+Given an integer array nums, find the maximum product of two integers in the array.
+
+Rotate an Array
+Given an array nums, rotate the array to the right by k steps, where k is non-negative.
+
+Move Zeros to the End
+Given an array of integers, move all the zeros to the end of the array while maintaining the relative order of the non-zero elements.
+
+Find the Missing Number
+Given an array of integers from 1 to n with one number missing, find the missing number.
+
+Find the Intersection of Two Arrays
+Given two arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays.

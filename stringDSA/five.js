@@ -1,7 +1,3 @@
-// 5. Valid Palindrome
-// Problem: Determine if a string is a palindrome.
-// Practice: LeetCode
-
 // function isPalindrome(s) {
 //   const cleanedStr = s.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 
@@ -18,8 +14,6 @@
 
 //   return true;
 // }
-console.log(isPalindrome("abhishek"));
-console.log(isPalindrome("madam"));
 // console.log(isPalindrome("A man, a plan, a canal: Panama"));
 // console.log(isPalindrome("race a car"));
 
@@ -39,6 +33,10 @@ console.log(isPalindrome("madam"));
 //   return true;
 // }
 
+// 5. Valid Palindrome
+// Problem: Determine if a string is a palindrome.
+// Practice: LeetCode
+
 function isPalindrome(str) {
   let cleanedStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
 
@@ -54,3 +52,5 @@ function isPalindrome(str) {
   }
   return true;
 }
+console.log(isPalindrome("abhishek"), "Life is unfair"); // life is unfair
+console.log(isPalindrome("madam")); // true

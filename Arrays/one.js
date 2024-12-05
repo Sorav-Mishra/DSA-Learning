@@ -1,15 +1,15 @@
-// // Find the Maximum Product of Two Integers in an Array
-// // Given an integer array nums, find the maximum product of two integers in the array.
+// Find the Maximum Product of Two Integers in an Array
+// Given an integer array nums, find the maximum product of two integers in the array.
 
-// // function Maximum(nums) {
-// //   nums.sort((a, b) => a - b);
+// function Maximum(nums) {
+//   nums.sort((a, b) => a - b);
 
-// //   let product1 = nums[nums.length - 1] * nums[nums.length - 2];
-// //   let product2 = nums[0] * nums[1];
+//   let product1 = nums[nums.length - 1] * nums[nums.length - 2];
+//   let product2 = nums[0] * nums[1];
 
-// //   return Math.max(product1, product2);
-// // }
-// // console.log(Maximum([1, 2, 3, 4]));
+//   return Math.max(product1, product2);
+// }
+// console.log(Maximum([1, 2, 3, 4]));
 
 // Rotate an Array
 // Given an array nums, rotate the array to the right by k steps, where k is non-negative.

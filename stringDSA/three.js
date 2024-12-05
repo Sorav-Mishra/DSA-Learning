@@ -98,6 +98,12 @@
 // console.log(lengthOfLongestSubstring("bbbbb")); // Output: 1
 // console.log(lengthOfLongestSubstring("pwwkew")); // Output: 3
 
+// 3. Longest Substring Without Repeating Characters
+// Problem: Find the longest substring without repeating characters.
+// Practice: LeetCode
+
+// Sliding Window
+
 function lengthOfLongestSubstring(str) {
   let charMap = {};
   let left = 0;
@@ -120,5 +126,3 @@ function lengthOfLongestSubstring(str) {
 }
 
 console.log(lengthOfLongestSubstring("abcabcbb")); // Output: 3
-console.log(lengthOfLongestSubstring("bbbbb")); // Output: 1
-console.log(lengthOfLongestSubstring("pwwkew")); // Output: 3

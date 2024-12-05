@@ -52,5 +52,5 @@ function isPalindrome(str) {
   }
   return true;
 }
-console.log(isPalindrome("abhishek"), "Life is unfair"); // life is unfair
+console.log(isPalindrome("abhishek"));
 console.log(isPalindrome("madam")); // true

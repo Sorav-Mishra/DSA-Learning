@@ -42,6 +42,14 @@
 // console.log("Function2", areAnagrams("listen", "silent"));
 // console.log("Function2", areAnagrams("coding", "isFun"));
 
+// 2. Check if Two Strings are
+// Anagrams
+// Problem: Check if two strings are anagrams of each other.
+// Practice: LeetCode
+
+// 'listen' aur 'silent'? True! ✅
+//  Listen = Silent;
+// 'coding' aur 'isFun'? False! ❌
 function areAnagrams(str1, str2) {
   if (str1.length !== str2.length) {
     return false;
@@ -54,15 +62,27 @@ function areAnagrams(str1, str2) {
     charStr[char] = (charStr[char] || 0) + 1;
     console.log(charStr);
   }
+  console.log(charStr);
+
+  //Listen:{L:1, i:1, s:1, t:1 e:1 n:1}
+  // Listen: {
+  //      L: 1,
+  //      I: 1,
+  //      S: 1,
+  //      T: 1,
+  //      E: 1,
+  //      N: 1,
+  // },
+
   for (i = 0; i < str2.length; i++) {
     let char = str2[i];
+    //  console.log(char);
     if (!charStr[char]) {
       return false;
     }
-    console.log(charStr);
     charStr[char]--;
   }
   return true;
 }
-console.log("Function2", areAnagrams("listen", "silent"));
-console.log("Function2", areAnagrams("coding", "isFun"));
+console.log("Ans :", areAnagrams("listen", "silent"));
+console.log("Ans :", areAnagrams("coding", "isFun"));

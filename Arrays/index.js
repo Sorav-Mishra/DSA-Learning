@@ -8,6 +8,18 @@
 // console.log("join:", fruits.join(", "));
 
 // let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const total = nums.reduce((acc, num) => acc + num, 0);
+// const tota = nums.reduce((acc, num) => {
+//   return acc + num;
+// }, 0);
+
+// const nums2 = [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, , 6];
+// console.log("1:", nums2);
+// let unique = [...new Set(nums2)];
+// console.log("2:", unique);
+
+//console.log("1:", total);
+//console.log("2:", tota);
 // nums.push(11);
 // console.log("push", nums);
 // nums.pop();
@@ -51,6 +63,16 @@
 // nums.sort((a, b) => b - a);
 // console.log(nums);
 
+// const people = [{ age: 35 }, { age: 25 }, { age: 50 }];
+// console.log("1:", people);
+// people.sort((a, b) => a.age - b.age);
+// console.log("2:", people);
+
+// const nested = [1, 3, 5, [2, 4, 5], [2, 5, 1, 3, 2, [2, 4, 3]]];
+// console.log("1:", nested);
+
+// console.log("2:", nested.flat(Infinity));
+
 // 1. Find the Maximum and Minimum Element in an Array
 // function findMaxMin(arr) {
 //   let min = arr[0];
@@ -62,31 +84,115 @@
 //   }
 //   return { min, max };
 // }
-console.log(findMaxMin([1, 5, 3, 7, 9, 5, 7]));
+//console.log(findMaxMin([1, 5, 3, 7, 9, 5, 7]));
 
-function findMaxMin(arr) {
-  let min = arr[0];
-  let max = arr[0];
+// function findMaxMin(arr) {
+//   let min = arr[0];
+//   let max = arr[0];
 
-  for (let num of arr) {
-    if (num < min) min = num;
-    if (num > max) max = num;
-  }
-  return { min, max };
-}
+//   for (let num of arr) {
+//     if (num < min) min = num;
+//     if (num > max) max = num;
+//   }
+//   return { min, max };
+// }
 
-// 2. Reverse an Array
+// // 2. Reverse an Array
 
-function reverse(arr) {
-  let left = 0;
-  let right = arr.length - 1;
+// function reverse(arr) {
+//   let left = 0;
+//   let right = arr.length - 1;
 
-  while (left < right) {
-    [arr[left], arr[right]] = [arr[right], arr[left]];
-    left++;
-    right--;
-  }
-  return arr;
-}
-let arr = [1, 5, 3, 7, 9, 5, 7];
-console.log(reverse(arr));
+//   while (left < right) {
+//     [arr[left], arr[right]] = [arr[right], arr[left]];
+//     left++;
+//     right--;
+//   }
+//   return arr;
+// }
+// let arr = [1, 5, 3, 7, 9, 5, 7];
+//console.log(reverse(arr));
+
+//Binary Search: Implement binary search for sorted arrays.
+
+// function binarySearch(arr, target) {
+//   let left = 0;
+//   let right = arr.length - 1;
+//   while (left <= right) {
+//     const mid = Math.floor((left + right) / 2);
+//     if (arr[mid] === target) return mid;
+//     if (arr[mid] < target) left = mid + 1;
+//     else right = mid - 1;
+//   }
+//   return -1;
+// }
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// console.log(binarySearch(nums, 11));
+
+// function binarySearch(arr, target) {
+//   let sortedArray = arr.sort((a, b) => a - b);
+//   let left = 0;
+//   let right = sortedArray.length - 1;
+//   while (left <= right) {
+//     const mid = Math.floor((left + right) / 2);
+//     if (sortedArray[mid] === target) return mid;
+//     if (sortedArray[mid] < target) left = mid + 1;
+//     else right = mid - 1;
+//   }
+//   return -1;
+// }
+
+// let nums = [1, 5, 20, 4, 5, 6, 7, 8, 9, 10, 11];
+// console.log(binarySearch(nums, 20));
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//1: Create and Initialize a 2D Array
+
+// Input: Rows and Columns
+// const rows = 3;
+// const cols = 3;
+
+// let value = 1;
+// const arr = Array.from({ length: rows }, () =>
+//   Array.from({ length: cols }, () => value++)
+// );
+
+// console.log("2D Array with Incremental Values:");
+// arr.forEach((row) => console.log(row));
+
+// let rows1 = 3;
+// let cols1 = 3;
+
+// let value1 = 1;
+// const arr1 = Array.from(
+//   { length: rows1 },
+//   () => Array.from({ length: cols1 }).fill(0)
+//   // Array.from({ length: cols1 }, () => value1++)
+// );
+
+// console.log("2D Array");
+// arr1.forEach((row) => console.log(row));
+
+// let row = 3;
+// let cols = 3;
+
+// let value = 1;
+// const arr = Array.from({ length: row }, () =>
+//   Array.from({ length: cols }, () => value++)
+// );
+
+// console.log("2D");
+// arr.forEach((row) => console.log(row));
+
+// const rows = parseInt(prompt("Enter the number of the rows"));
+// const cols = parseInt(prompt("Enter the number od the cols"));
+
+const rows = parseInt(prompt("Enter the number of rows:"));
+const cols = parseInt(prompt("Enter the number of columns:"));
+
+const arr = Array.from({ length: rows }, (_, i) =>
+  Array.from({ length: cols }, (_, (j) => i + j))
+);
+console.log("the 2D array is");
+arr.forEach((row) => console.log(row));

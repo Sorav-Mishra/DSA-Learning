@@ -188,11 +188,160 @@
 // const rows = parseInt(prompt("Enter the number of the rows"));
 // const cols = parseInt(prompt("Enter the number od the cols"));
 
-const rows = parseInt(prompt("Enter the number of rows:"));
-const cols = parseInt(prompt("Enter the number of columns:"));
+// import readline from "readline";
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
 
-const arr = Array.from({ length: rows }, (_, i) =>
-  Array.from({ length: cols }, (_, (j) => i + j))
-);
-console.log("the 2D array is");
-arr.forEach((row) => console.log(row));
+// // Function to ask a question and get input
+// const getInput = (query) =>
+//   new Promise((resolve) =>
+//     rl.question(query, (answer) => resolve(parseInt(answer)))
+//   );
+
+// (async () => {
+//   try {
+//     const rows = await getInput("Enter the number of rows: ");
+//     const cols = await getInput("Enter the number of columns: ");
+
+//     // Generate the 2D array
+//     const arr = Array.from({ length: rows }, (_, i) =>
+//       Array.from({ length: cols }, (_, j) => i + j)
+//     );
+
+//     console.log("The 2D array is:");
+//     arr.forEach((row) => console.log(row));
+
+//     rl.close();
+//   } catch (err) {
+//     console.error("Error:", err.message);
+//     rl.close();
+//   }
+// })();
+
+// 2D ARRAYS **************************************************************//
+
+// let rows = 3;
+// let cols = 3;
+// value = 1;
+// const arr = Array.from({ length: rows }, () =>
+//   Array.from(
+//     {
+//       length: cols,
+//     },
+//     () => value++
+//   )
+// );
+
+// console.log("2D Array");
+// arr.forEach((row) => console.log(row));
+
+// Write a program to print the elements of a 2D array row by row.
+
+// const array2D = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+// console.log("Printing 2D array row by row");
+
+// for (i = 0; i < array2D.length; i++) {
+//   let row = "";
+//   for (j = 0; j < array2D[i].length; j++) {
+//     row += array2D[i][j] + " ";
+//   }
+//   //console.log("first", row);
+//   console.log("second", row.trim());
+// }
+
+// const array2D = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// console.log("Printing 2D Array");
+// for (i = 0; i < array2D.length; i++) {
+//   row = "";
+//   for (j = 0; j < array2D[i].length; j++) {
+//     row += array2D[i][j] + " ";
+//   }
+//   console.log(row.trim());
+// }
+
+// const readline = require("readline");
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// rl.question("Enter the number of rows: ", (rows) => {
+//   rl.question("Enter the number of columns: ", (cols) => {
+//     const array2D = [];
+//     let counter = 1;
+
+//     // Fill the 2D array with numbers
+
+//     for (i = 0; i < rows; i++) {
+//       const row = [];
+//       for (j = 0; j < cols; j++) {
+//         row.push(counter++);
+//       }
+//       array2D.push(row);
+//     }
+
+//     console.log("Generated 2D Array:");
+//     for (i = 0; i < array2D.length; i++) {
+//       console.log(array2D[i].join(" "));
+//     }
+
+//     rl.close();
+//   });
+// });
+
+// const Array2D = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// for (i = 0; i < Array2D.length; i++) {
+//   let row = "";
+//   for (j = 0; j < Array2D[i].length; j++) {
+//     console.log(Array2D[i][j]);
+//     row += Array2D[i][j] + " ";
+//   }
+//   //console.log(row.trim());
+// }
+
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+rl.question("Enter the number of rows: ", (rows) => {
+  rl.question("Enter the number of colms: ", (cols) => {
+    const Array2D = [];
+    let value = 1;
+
+    for (i = 0; i < row; i++) {
+      const row = [];
+    }
+    for (j = 0; j < cols; j++) {
+      row.push(value++);
+    }
+
+    Array2D.push(row);
+
+    console.log("Generated the 2D Array :");
+    for (i = 0; i < Array2D.length; i++) {
+      console.log(Array2D[i].join(" "));
+    }
+
+    rl.close();
+  });
+});

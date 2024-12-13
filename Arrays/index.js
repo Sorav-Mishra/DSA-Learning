@@ -316,32 +316,90 @@
 //   //console.log(row.trim());
 // }
 
-const readline = require("readline");
+// const readline = require("readline");
 
-const rl = readline.createInterface({
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// rl.question("Enter the number of rows: ", (rows) => {
+//   rl.question("Enter the number of colms: ", (cols) => {
+//     const Array2D = [];
+//     let value = 1;
+
+//     for (i = 0; i < row; i++) {
+//       const row = [];
+//     }
+//     for (j = 0; j < cols; j++) {
+//       row.push(value++);
+//     }
+
+//     Array2D.push(row);
+
+//     console.log("Generated the 2D Array :");
+//     for (i = 0; i < Array2D.length; i++) {
+//       console.log(Array2D[i].join(" "));
+//     }
+
+//     rl.close();
+//   });
+// });
+
+
+
+const readline = require("readline")
+
+cost rl = readline.createInterface({
+
   input: process.stdin,
   output: process.stdout,
-});
 
-rl.question("Enter the number of rows: ", (rows) => {
-  rl.question("Enter the number of colms: ", (cols) => {
-    const Array2D = [];
-    let value = 1;
+})
+ 
+rl.question('Enter the number of rows: ', (rows) => {
+  rl.question('Enter the number of coln: ', (coln) => {
+    const Array2D = []
+    let value1 = 1
 
-    for (i = 0; i < row; i++) {
-      const row = [];
+    for(i = 0; i < row; i++) {
+      const row = []
     }
-    for (j = 0; j < cols; j++) {
-      row.push(value++);
+    for(j = 0; j < cols; j++) {
+      row.push(value++)
     }
+  })
+})
 
-    Array2D.push(row);
 
-    console.log("Generated the 2D Array :");
-    for (i = 0; i < Array2D.length; i++) {
-      console.log(Array2D[i].join(" "));
-    }
 
-    rl.close();
-  });
-});
+
+// const readline = require("readline");
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// rl.question("Enter the number of rows: ", (rows) => {
+//   rl.question("Enter the number of colms: ", (cols) => {
+//     const Array2D = [];
+//     let value = 1;
+
+//     for (i = 0; i < row; i++) {
+//       const row = [];
+//     }
+//     for (j = 0; j < cols; j++) {
+//       row.push(value++);
+//     }
+
+//     Array2D.push(row);
+
+//     console.log("Generated the 2D Array :");
+//     for (i = 0; i < Array2D.length; i++) {
+//       console.log(Array2D[i].join(" "));
+//     }
+
+//     rl.close();
+//   });
+// });

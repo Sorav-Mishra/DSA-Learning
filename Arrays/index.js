@@ -346,33 +346,28 @@
 //   });
 // });
 
+// const readline = require("readline")
 
+// cost rl = readline.createInterface({
 
-const readline = require("readline")
+//   input: process.stdin,
+//   output: process.stdout,
 
-cost rl = readline.createInterface({
+// })
 
-  input: process.stdin,
-  output: process.stdout,
+// rl.question('Enter the number of rows: ', (rows) => {
+//   rl.question('Enter the number of coln: ', (coln) => {
+//     const Array2D = []
+//     let value1 = 1
 
-})
- 
-rl.question('Enter the number of rows: ', (rows) => {
-  rl.question('Enter the number of coln: ', (coln) => {
-    const Array2D = []
-    let value1 = 1
-
-    for(i = 0; i < row; i++) {
-      const row = []
-    }
-    for(j = 0; j < cols; j++) {
-      row.push(value++)
-    }
-  })
-})
-
-
-
+//     for(i = 0; i < row; i++) {
+//       const row = []
+//     }
+//     for(j = 0; j < cols; j++) {
+//       row.push(value++)
+//     }
+//   })
+// })
 
 // const readline = require("readline");
 
@@ -403,3 +398,8 @@ rl.question('Enter the number of rows: ', (rows) => {
 //     rl.close();
 //   });
 // });
+
+//console.log("hellow from solo namaste from india")
+
+console.log("hello from solo namate from india");
+console.log("coding is fun");

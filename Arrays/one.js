@@ -154,3 +154,5 @@ function missingNumber(arr, n) {
 let arr = [1, 2, 4, 5];
 let n = 5;
 console.log("missing number", missingNumber(arr, n));
+
+console.log("coding is fun");

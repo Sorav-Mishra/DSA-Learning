@@ -156,3 +156,5 @@ let n = 5;
 console.log("missing number", missingNumber(arr, n));
 
 console.log("coding is fun");
+
+console.log("hello from solo namste from india");

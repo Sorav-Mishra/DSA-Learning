@@ -434,40 +434,40 @@
 //   });
 // });
 
-const readline = require("readline");
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-rl.question("Enter the number of rows ", (rows) => {
-  rl.question("Enter the number of cols: ", (cols) => {
-    rows = parseInt(rows);
-    cols = parseInt(cols);
-
-    const Array2D = [];
-    let value = 1;
-
-    for (i = 0; i < rows; i++) {
-      const row = [];
-      for (j = 0; j < cols; j++) {
-        row.push(value++);
-      }
-      Array2D.push(row);
-    }
-
-    console.log("Generated the 2D Array:");
-    for (i = 0; i < Array2D.length; i++) {
-      console.log(Array2D[i].join(" "));
-    }
-    rl.close();
-  });
-});
-
-const readline = require("readline");
+// const readline = require("readline");
 
 // const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// rl.question("Enter the number of rows ", (rows) => {
+//   rl.question("Enter the number of cols: ", (cols) => {
+//     rows = parseInt(rows);
+//     cols = parseInt(cols);
+
+//     const Array2D = [];
+//     let value = 1;
+
+//     for (i = 0; i < rows; i++) {
+//       const row = [];
+//       for (j = 0; j < cols; j++) {
+//         row.push(value++);
+//       }
+//       Array2D.push(row);
+//     }
+
+//     console.log("Generated the 2D Array:");
+//     for (i = 0; i < Array2D.length; i++) {
+//       console.log(Array2D[i].join(" "));
+//     }
+//     rl.close();
+//   });
+// });
+
+// const readline = require("readline");
+
+// // const rl = readline.createInterface({
 //   input: process.stdin,
 //   output: process.stdout,
 // });
@@ -520,3 +520,4 @@ const readline = require("readline");
 // }
 
 // console.log(Array2D);
+console.log("why i am not doing anything");

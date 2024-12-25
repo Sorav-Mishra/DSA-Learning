@@ -561,10 +561,10 @@ function divide(num) {
   left = 0;
   right = num.length - 1;
 
-  let mid = Math.floor(left + right / 2);
+  let mid = Math.floor((left + right) / 2);
   return mid;
 }
 
-nums2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+nums2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 console.log("mid", divide(nums2));

@@ -169,16 +169,28 @@
 // ];
 // console.log(Array2D);
 
-rows = 3;
-cols = 4;
-let Array2D = [];
+// rows = 3;
+// cols = 4;
+// let Array2D = [];
 
-for (i = 0; i < rows; i++) {
-  const row = [];
-  for (j = 0; j < cols; j++) {
-    row.push(i * cols + j + 1);
-  }
+// for (i = 0; i < rows; i++) {
+//   const row = [];
+//   for (j = 0; j < cols; j++) {
+//     row.push(i * cols + j + 1);
+//   }
 
-  Array2D.push(row);
+//   Array2D.push(row);
+// }
+// console.log(Array2D);
+
+const matix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+console.log(matix);
+for (let row of matix) {
+  const rowString = row;
+  console.log(rowString);
 }
-console.log(Array2D);

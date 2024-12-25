@@ -183,14 +183,108 @@
 // }
 // console.log(Array2D);
 
-const matix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-];
+// const matix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9, 10],
+// ];
 
-console.log(matix);
-for (let row of matix) {
-  const rowString = row;
-  console.log(rowString);
+// console.log(matix);
+// for (let row of matix) {
+//   const rowString = row;
+//   console.log(rowString);
+// }
+
+// function twoSum(nums, target) {
+//   for (let i = 0; i < nums.length; i++) {
+//     for (let j = i + 1; nums.length; j++) {
+//       if (nums[i] + nums[j] === target) {
+//         return [i, j];
+//       }
+//     }
+//   }
+//   return [];
+// }
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10];
+// console.log(twoSum(num, 24));
+
+// function twoSum(nums, target) {
+//   for (let i = 0; i < nums.length; i++) {
+//     for (let j = i + 1; j < nums.length; j++) {
+//       // Corrected condition
+//       if (nums[i] + nums[j] === target) {
+//         // Added if condition
+//         return [i, j]; // Return only when the condition is true
+//       }
+//     }
+//   }
+//   return []; // If no solution is found, return an empty array
+// }
+
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10];
+// console.log(twoSum(nums, 14)); // Test with target 24
+
+function twoSum(nums, target) {
+  for (i = 0; i < nums.length; i++) {
+    for (j = i + 1; j < nums.length; j++) {
+      if (nums[i] + nums[j] === target) {
+        return [i, j];
+      }
+    }
+  }
+
+  return [];
+}
+
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+target = 3;
+console.log(twoSum(num, target));
+
+function removeDuplicates(nums) {
+  if (nums.length === 0) return 0;
+  let k = 0;
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] !== nums[k]) {
+      k++;
+      nums[k] = nums[i];
+    }
+  }
+  return k + 1;
+}
+
+let num1 = [1, 2, 2, 3, 3, 4, 4];
+console.log(removeDuplicates(num1));
+
+function removeElement(nums, value) {
+  let k = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] !== value) {
+      nums[k] = nums[i];
+      k++;
+    }
+  }
+  return k;
+}
+
+let n = [1, 2, 2, 2, 2, 3, 4, 5];
+console.log(removeElement(n, 2));
+
+function searchInsert(nums, target) {
+  left = 0;
+  right = nums.length - 1;
+
+  while (left <= right) {
+    let mid = Math.floor(left + right / 2);
+  }
+
+  if (nums[mid] === target) {
+    return mid;
+  } else if (nums[mid] < target) {
+    left = mid + 1;
+  } else {
+    right = mid - 1;
+  }
+  return left;
 }

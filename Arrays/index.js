@@ -521,3 +521,50 @@
 
 // console.log(Array2D);
 // console.log("why i am not doing anything");
+
+// function twoSum(nums, target) {
+//   for (i = 0; i < nums.length; i++) {
+//     for (j = i + 1; j < nums.length; j++) {
+//       if (nums[i] + nums[j] === target) {
+//         return [i, j];
+//       }
+//     }
+//   }
+
+//   return [];
+// }
+
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// target = 3;
+// console.log(twoSum(num, target));
+
+// function removeDuplicates(nums) {
+//   if (nums.length === 0) return 0;
+
+//   let k = 0;
+
+//   for (let i = 1; i < nums.length; i++) {
+//     if (nums[i] !== nums[k]) {
+//       k++;
+//       nums[k] = nums[i];
+//     }
+//   }
+
+//   return k + 1;
+// }
+
+// let num1 = [1, 1, 2, 2, 3, 3];
+
+// console.log(removeDuplicates(num1));
+
+function divide(num) {
+  left = 0;
+  right = num.length - 1;
+
+  let mid = Math.floor(left + right / 2);
+  return mid;
+}
+
+nums2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+console.log("mid", divide(nums2));

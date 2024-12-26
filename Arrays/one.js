@@ -288,3 +288,17 @@ function searchInsert(nums, target) {
   }
   return left;
 }
+
+function AddOne(digit) {
+  for (i = digit.length - 1; i >= 0; i--) {
+    digit[i]++;
+
+    if (digit < 10) {
+      return digit;
+    }
+    digit[i] = 0;
+  }
+
+  digits.unshift(1);
+  return digits;
+}

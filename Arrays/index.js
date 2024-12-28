@@ -570,3 +570,4 @@ nums2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 console.log("mid", divide(nums2));
 
 console.log("life is fucked man today i am feeling so alone");
+console.log("i think, i am not a intelligent");

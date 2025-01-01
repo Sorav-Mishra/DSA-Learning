@@ -572,3 +572,5 @@ console.log("mid", divide(nums2));
 console.log("life is fucked man today i am feeling so alone");
 console.log("i think, i am not a intelligent");
 console.log("i am not able to crack the job how i will");
+
+console.log("happy new year to me");
